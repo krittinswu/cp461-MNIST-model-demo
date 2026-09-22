@@ -8,7 +8,7 @@ st.title("MNIST Digit Predictor")
 st.write("Upload an image of a handwritten digit to get a prediction.")
 
 # ปรับชื่อโมเดลให้ตรงกับที่คุณเซฟไว้ (เปลี่ยนเป็น '671010157_mnist_model.keras' ตามรหัสนิสิตของคุณ หรือใช้ชื่อด้านล่าง)
-model_path = "6xxxx_mnist_model.keras"
+model_path = "671010157_mnist_model.keras"
 
 if not os.path.exists(model_path):
     st.error(f"Model file '{model_path}' not found.")
